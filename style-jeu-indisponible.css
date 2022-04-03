@@ -5,7 +5,8 @@
 }
 @font-face {
     font-family: azonix;
-    src: url(Azonix.otf);
+    src: url(Polices/Azonix.otf);
+}
 
 body {
     background: #ff4343;
