@@ -31,6 +31,7 @@ h1 {
     text-align: center;
 
 }
+
 h2 {
     font-family: "azonix", sans-serif;
     color: white;
@@ -38,6 +39,13 @@ h2 {
     position:  relative;
     text-align: center;
 }
+
+h3 {
+    font-size: 20px;
+    color: white;
+    font-family: "azonix", sans-serif;
+    position:  relative;
+    text-align: right;
 .button {
     font-family: "azonix", sans-serif;
     position:  relative;
