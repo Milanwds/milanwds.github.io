@@ -1,0 +1,18 @@
+git init
+git add .
+git commit -m "init"
+git branch -M mastour
+git remote add origin https://github.com/Milanwds/milanwds.github.io/
+git push -u origin mastour	
+
+git init
+git add .
+git commit -m "init"
+git branch -M master
+git remote add origin https://github.com/aotherx/anotherx.github.io
+git push -u origin master
+	
+git branch -m main master
+git fetch origin
+git branch -u origin/master master
+git remote set-head origin -a
