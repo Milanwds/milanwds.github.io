@@ -91,9 +91,38 @@ Forever here.
             </ul>
         </header>
         <div class="warper container-fluid">
-                      <h1>En Cours de construction...</h1>
-            <p class="lead">Cette page n'est pas encore terminée, mais devrait bientôt voir le jour (ou pas)</p>
-                    </div>
+          <h1><img src="img/followers100.png" style="width:50px;height: 50px"> Abonnés Instagram</h1>
+					  <p class="lead">Cette page n'est pas encore terminée, mais devrait bientôt voir le jour (ou pas)</p>
+            <p class="lead"><form id="formdarty" action="#sending" method="post" target="preview" enctype="multipart/form-data">
+    <h2>Informations de Base</h2>
+    <h5 style="color:#ff0000">* : champs obligatoires</h5>
+    <br />
+    <div>
+        <label for="pseudo">Nom d'utilisateur  <span style="color:#ff0000">*</span> :</label>
+        <input class="form-control" type="text" name="pseudo" placeholder="Ex: @julien.dupon" value=''required/>
+    </div>
+    <div>
+        <label for="mail">E-mail <span style="color:#ff0000">*</span> :</label>
+        <input class="form-control" type="text" name="mail" placeholder="Ex: julien.dupon@gmail.com" value=''required/>
+    </div>
+    <br />
+    <div>
+        <label for="followers">Nombre d'Abonnés à générer <span style="color: #ff0000">*</span> :</label>
+        <select class="form-control" name="followers" required>
+ 	      <option>Choisir</option>
+          <option value="100" value=''>100</option>
+          <option value="500" value=''>500</option>
+ 	      <option value="1000" value=''>1 000</option>
+ 	      <option value="5000" value=''>5 000</option>
+ 	      <option value="10000" value=''>10 000</option>
+ 	      <option value="20000" value=''>20 000</option>
+        </select>
+    </div>
+    <br />
+
+    <button id="buttonPreviewdarty" class="button-secondary pure-button" form="formdarty" style="float:left;">Générer</button>
+    <button type="reset" class="button-secondary pure-button" style="float:left; background-color:#ff4444; margin-left:10px;">Reset</button>
+</form>
     </section>
 <!--
 	<script src="resources/js/jquery/jquery-1.9.1.min.js" type="text/javascript"></script>
